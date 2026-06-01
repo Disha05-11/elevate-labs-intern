@@ -1,0 +1,12 @@
+# Nmap 7.99 scan initiated Mon Jun  1 10:57:59 2026 as: nmap -sS -oN scan_results.txt 192.168.180.1
+Nmap scan report for 192.168.180.1
+Host is up (0.000041s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+# Nmap done at Mon Jun  1 10:58:00 2026 -- 1 IP address (1 host up) scanned in 0.78 seconds
