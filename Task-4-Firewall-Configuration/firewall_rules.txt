@@ -1,0 +1,16 @@
+Firewall Rule Configuration
+
+Rule Name: Block Telnet Port
+
+Direction: Inbound
+
+Protocol: TCP
+
+Port: 23
+
+Action: Block
+
+Status: Enabled
+
+Purpose:
+Prevent Telnet traffic from reaching the system.
